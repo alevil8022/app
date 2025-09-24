@@ -1,0 +1,3 @@
+docker build -t csv-converter-streamlit .
+
+docker run -p 8501:8501 --name streamlit-app csv-converter-streamlit
